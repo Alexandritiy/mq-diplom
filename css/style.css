@@ -1,3 +1,5 @@
+css
+
 * {
     margin: 0;
     padding: 0;
@@ -97,14 +99,6 @@
     text-transform: uppercase;
     text-align: center;
   }
-  
-  .container {
-    display: flex;
-    padding: 64px 15px 65px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1170px;
-  }
 
   .section_trends {
     margin-top: 64px;  
@@ -155,7 +149,7 @@
   }
 
   .trends_images {
-    background-size:cover;
+    background-size: cover;
     background-position: center center;
     background-color: #eff5f1;
     height: 320px;
@@ -236,6 +230,14 @@
     color: #b59f5b;
   }
 
+  .container {
+    display: flex;
+    padding: 64px 15px 65px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
+  }
+
   .section {
     margin-right: 120px;
     width: 794px;
@@ -247,10 +249,6 @@
   
   .article:nth-child(n + 2) {
     margin-top: 59px;
-  }
-  
-  .news {
-    margin-left: 30px;
   }
   
   .news_list_item {
@@ -285,6 +283,7 @@
     color: #0f0d0e;
     line-height: 1.2em;
     text-align: left;
+    margin-left: 30px;
   }
   
   .news_text:hover {
@@ -297,7 +296,7 @@
     font-family: "Open Sans", Arial, sans-serif;
     font-weight: 400;
     display: flex;
-    margin: 39px 0 61px 0;
+    margin: 39px 0px 61px 0px;
   }
   
   .news_list_data {
@@ -316,6 +315,7 @@
     font-weight: 400;
     color: #0f0d0e;
     line-height: 1.4;
+    margin-left: 30px;
   }
   
   .sidebare {
@@ -541,6 +541,151 @@
     margin-left: 5px;
     font-weight: bold;
   }
+
+
+
+
+.section_shop {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+   }
+
+.shop_title {
+   text-align: center;
+   color: #0f0d0e;
+   font-family: "Open Sans", Arial, sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 20px;
+   position: relative;
+   margin-bottom: 45px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+    
+ .shop_title:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: -14px;
+    width: 66px;
+    height: 3px;
+    transform: translateX(-50%);
+    background-color: #b59f5b;
+    opacity: 0.6;
+    }
+
+.shop {
+  display: flex;
+  justify-content: space-around;
+  }
+
+.shop_item-desk_1jpg {
+  background-image: url("../images/shop-item-desk1.jpg");
+
+}
+
+.shop_item-desk_2jpg {
+  background-image: url("../images/shop-item-desk2.jpg");
+}
+
+.shop_item-desk_3jpg {
+  background-image: url("../images/shop-item-desk3.jpg");
+}
+
+.shop_images {
+  background-color:#eff5f1;
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: cover;
+  width: 26%;
+  height: 204px;
+}
+
+.border_shop {
+  display: flex;
+  justify-content: space-around;
+  margin-top:  -32px;
+}
+
+.border {
+  border: 3px solid #b59f5b;
+  width: 29%;
+  margin-bottom: 50px;
+  padding: 54px 0px 0px 20px;
+}
+
+.shop_text{
+  position: relative;
+  font-size: 20px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+  color:#0f0d0e;
+}
+
+.shop_main_text {
+  font-size: 15px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  color: #0f0d0e;
+  line-height: 1.4;
+}
+
+.shop_item {
+  color: #b59f5b;
+  text-decoration: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+.shop_item:hover {
+  text-decoration: underline;
+}
+
+.btn_shop{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: ;
+}
+
+.pillow {
+  padding: 27px 21px 69px 0;
+}
+
+.doll {
+  padding: 26px 21px;
+}
+
+.button_shop {
+  width: 140px;
+  height: 49px;
+  background: #b59f5b;
+  border: none;
+  cursor: pointer;
+  margin-top: 18px;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.button_shop:hover {
+  background-color: #323232;
+}
+
+.button_shop__hidden_description {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
   
   .footer {
     padding-bottom: 41px;
